@@ -1,3 +1,4 @@
+#调用
 <link type="text/css" rel="stylesheet" href="https://video3-naya.vercel.app/ckplayer/css/ckplayer.css" />
 <script type="text/javascript" src="https://video3-naya.vercel.app/ckplayer/js/ckplayer.js" charset="UTF-8"></script>
 <div class="video" style="width: 100%;height: 100%;">播放器容器</div>
