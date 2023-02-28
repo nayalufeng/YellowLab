@@ -17,13 +17,13 @@
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
   var hls = new Hls();
-  hls.loadSource('https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn/index.m3u8');
+  hls.loadSource('https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn//index.m3u8');
   hls.attachMedia(video);
   hls.on(Hls.Events.MANIFEST_PARSED,function() {
   video.play();
 });
 } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-  video.src = 'https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn/index.m3u8';
+  video.src = 'https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn//index.m3u8';
   video.addEventListener('loadedmetadata',function() {
   video.play();
 });
