@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>奖励自己</title>
+    <title></title>
     <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
     <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
     
