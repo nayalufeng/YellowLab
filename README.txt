@@ -19,10 +19,9 @@
 </style>
 <div>
     <video id="myVideo" class="video-js vjs-default-skin vjs-big-play-centered" controls  autoplay  data-setup='{}' style='width: 100%;height: auto'>
-        <source id="source" src="http://1252093142.vod2.myqcloud.com/4704461fvodcq1252093142/48c8a9475285890781000441992/playlist.m3u8" type="application/x-mpegURL"></source>
+        <source id="source" src="https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn//index.m3u8" type="application/x-mpegURL"></source>
     </video>
-</div>
-<div class="qiehuan" style="width:100px;height: 100px;background: red;margin:0 auto;line-height: 100px;color:#fff;text-align: center">切换视频</div>
+
 </body>
 
 <script>
@@ -46,7 +45,7 @@
         myVideo.load();
         myVideo.play();
     }
-    var src = 'https://cdn.jsdelivr.net/gh/nayalufeng/yellowlab/cdn//index.m3u8';
+    var src = '#';
     document.querySelector('.qiehuan').addEventListener('click', function () {
         changeVideo(src);
     })
